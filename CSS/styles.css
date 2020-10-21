@@ -1,0 +1,47 @@
+
+/*=====================
+    General Styling
+ =====================*/
+
+body{
+    background-color: whitesmoke;
+    font-family: 'Varela Round', sans-serif;
+    color: #3a3a3a;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*=====================
+    Navigation Styles
+======================*/
+
+.main-nav{
+    list-style: none;
+}
+.main-nav a {
+	font-size: 1.25em;
+	color: darkblue;
+    text-transform: uppercase;
+    text-align: center; 
+    display: block;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+}
+
+.main-nav a:hover {
+	color: #093a58;
+}
+
+.main-nav, .name a:visited {
+    color: darkblue
+}
+
+.name {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+}
