@@ -5,7 +5,7 @@
 
 body{
     background-color: whitesmoke;
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #3a3a3a;
 }
 
@@ -15,6 +15,14 @@ a {
 
 *  {
     box-sizing: border-box;
+}
+
+.section-title {
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 2px;
+    font-size: 1.5em;
+    text-transform: uppercase;
 }
 
 /*=====================
@@ -67,12 +75,40 @@ Intro Banner Styling
 }
 
 .profile-photo{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 0 auto;
     border-radius: 10px;
-    max-height: 300px;
+    max-width: 100%;
 }
 
 /*========================
     Profile Area Styling
 =========================*/
+
+.container {
+    background-color: white;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.project{
+    text-align: center;
+    max-width: 90%;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.project img{
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.project-title{
+    font-weight: 600;
+}
+
+.project-description{
+    max-width: 80%;
+    margin: 0 auto;
+}
