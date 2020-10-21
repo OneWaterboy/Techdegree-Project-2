@@ -58,7 +58,8 @@ hr{
 	color: #093a58;
 }
 
-.main-nav, .name a:visited {
+.main-nav, 
+.name a:visited {
     color: darkblue
 }
 
@@ -66,6 +67,8 @@ hr{
     display: block;
     text-align: center;
     text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 /*===========================
@@ -110,7 +113,7 @@ Intro Banner Styling
     justify-content: center;
     margin: 0 auto;
     margin-top: 40px;
-    margin-bottom: 40px;
+    /*margin-bottom: 40px;*/
 }
 
 .project img{
@@ -123,7 +126,7 @@ Intro Banner Styling
 }
 
 .project-description{
-    max-width: 80%;
+    max-width: 60%;
     margin: 0 auto;
 }
 
@@ -171,4 +174,54 @@ Intro Banner Styling
 .wrapper{
     max-width: 80%;
     margin: 0 auto
+}
+
+
+/*=======================================
+    @media Queries for Responsive Design
+========================================*/
+
+@media(min-width:768px){
+   
+    .main-nav{
+        text-align: center;
+        margin-top: 0;
+    }
+    
+    .main-nav li {
+        font-size: 1em;
+        color: darkblue;
+        text-transform: uppercase;
+        text-align: center; 
+        display: inline-block;
+        padding: 10px;
+        margin: 0 auto;
+        
+    }
+    .banner{
+        display: inline-block;
+    }
+    .introduction{
+        max-width: 40%;
+    }
+    .main-nav a {
+        background-color: whitesmoke;
+        
+    }
+
+    .container{
+        text-align: center;
+    }
+    .project{
+        width: 45%;
+        display: inline-block;
+        margin: 30px auto;
+        
+    }
+    .project img{
+        margin: 0 auto;
+        max-width: 95%;
+    }
+
+
 }
