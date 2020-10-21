@@ -26,6 +26,13 @@ a {
     margin-top: 35px;
 }
 
+hr{
+    width: 85%;
+    text-align: center;
+    opacity: 60%;
+    margin-top: 50px;
+}
+
 /*=====================
     Navigation Styles
 ======================*/
@@ -137,4 +144,31 @@ Intro Banner Styling
     max-width: 75%;
     line-height: 40px;
     font-size: 1.25em;
+}
+
+/*=============================
+    Footer Area Styling
+==============================*/
+
+.footer{
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.footer a{
+    font-size: 0.5em;
+    color: black;
+}
+
+.footer a:visited{
+    color: black;
+}
+
+.top{
+    float: right;
+}
+
+.wrapper{
+    max-width: 80%;
+    margin: 0 auto
 }
