@@ -72,12 +72,17 @@ Intro Banner Styling
 .banner p {
     line-height: 1.5em;
     font-size: 1.25em;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
 }
 
 .profile-photo{
-    margin: 0 auto;
+    margin: 30px auto;
     border-radius: 10px;
-    max-width: 100%;
+    max-width: 50%;
+    
 }
 
 /*========================
