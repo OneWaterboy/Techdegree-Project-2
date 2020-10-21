@@ -45,3 +45,24 @@ a {
     text-align: center;
     text-transform: uppercase;
 }
+
+/*===========================
+Intro Banner Styling
+============================*/
+
+.banner{
+    justify-content: center;
+    text-align: center;
+}
+
+.banner p {
+    line-height: 1.5em;
+    font-size: 1.25em;
+}
+
+.profile-photo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    max-height: 200px;
+}
