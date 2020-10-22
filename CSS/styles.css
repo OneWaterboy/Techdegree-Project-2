@@ -27,9 +27,9 @@ a {
 }
 
 hr{
-    width: 85%;
+    width: 90%;
     text-align: center;
-    opacity: 60%;
+    opacity: 50%;
     margin-top: 50px;
 }
 
@@ -153,36 +153,55 @@ Intro Banner Styling
     Footer Area Styling
 ==============================*/
 
-.footer{
-    display: inline-block;
-    margin-top: 20px;
+.footer-name{
+    
+    margin-top: 0px;
+    max-width: 50%;
+    float: left;
 }
 
-.footer a{
-    font-size: 0.5em;
+.footer-name a{
+    font-size: 0.75em;
     color: black;
 }
 
-.footer a:visited{
+.footer-name a:visited{
     color: black;
 }
 
 .top{
     float: right;
+    font-size: 1.25em;
+    text-transform: uppercase;
+
+
 }
 
 .wrapper{
     max-width: 80%;
-    margin: 0 auto
+    margin: 0 auto;
 }
+
+.footer-nav{
+    display: none;
+}
+
 
 
 /*=======================================
     @media Queries for Responsive Design
 ========================================*/
 
+@media(max-width:768){
+    
+    
+}
+
 @media(min-width:768px){
    
+    .top{
+        display: none;
+    }
     .main-nav{
         text-align: center;
         margin-top: 0;
@@ -200,10 +219,22 @@ Intro Banner Styling
     }
     .banner{
         display: inline-block;
+        padding-bottom: 30px;
     }
+
     .introduction{
-        max-width: 40%;
+        max-width: 100%;
+        
+        
     }
+
+    .profile-photo{
+        max-width: 40%;
+        float: right;
+        margin: 20px 60px;
+       
+    }
+
     .main-nav a {
         background-color: whitesmoke;
         
@@ -223,5 +254,41 @@ Intro Banner Styling
         max-width: 95%;
     }
 
+    .top{
+        display: none;
+    }
+
+    
+    }
+    .footer-nav{
+        list-style: none;
+        padding-inline-start: 0px;
+        display: inline;
+        /* Had to overwrite User Agent Stylesheet to remove padding for deleted bullet points
+         However, Adding in normalize.css also seemed to correct the issue. Leaving property to keep style accurate*/ 
+    }
+
+    .footer-nav a {
+        font-size: 1em;
+        font-weight: 800;
+        color: darkblue;
+        text-transform: uppercase;
+        text-align: center; 
+        padding: 20px;
+        float: right;
+        max-width: 50%;
+        
+    }
+    
+    .footer-nav a:hover {
+        color: #000000;
+    }
+    
+    .footer-nav  a:visited {
+        color: black
+    }
+    .footer-nav{
+        display: none;
+    }
 
 }
