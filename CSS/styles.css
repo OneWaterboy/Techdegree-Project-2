@@ -113,6 +113,7 @@ Intro Banner Styling
     justify-content: center;
     margin: 0 auto;
     margin-top: 40px;
+    vertical-align: top;
     /*margin-bottom: 40px;*/
 }
 
@@ -297,9 +298,15 @@ Intro Banner Styling
         .top{
             display: none;
         }
+
+        .main-header{
+            display: inline;
+        }
         .main-nav{
             margin-top: 0;
             float: right;
+            max-width: 70%;
+            text-align: right;
         }
         
         .main-nav li {
@@ -307,19 +314,20 @@ Intro Banner Styling
             color: darkblue;
             text-transform: uppercase;
             text-align: center; 
-            padding: 10px;
-            margin: 0 auto;
-            display: inline-block;
-            
+            padding: 10px; 
         }
 
-
-        nav{
-            display: inline-block;
+        .name{
+            float: left;
+            max-width: 30%;
+            font-size: 1.5em;
+            margin-left: 20px ;
         }
         .banner{
             display: inline-block;
             padding-bottom: 30px;
+            margin-top: 40px;
+            justify-content: center;
         }
     
         .introduction{
