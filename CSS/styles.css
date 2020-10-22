@@ -126,7 +126,7 @@ Intro Banner Styling
 }
 
 .project-description{
-    max-width: 60%;
+    max-width:100%;
     margin: 0 auto;
 }
 
@@ -259,7 +259,6 @@ Intro Banner Styling
     }
 
     
-    }
     .footer-nav{
         list-style: none;
         padding-inline-start: 0px;
@@ -291,4 +290,106 @@ Intro Banner Styling
         display: none;
     }
 
+}
+
+@media (min-width: 1024px) {
+
+        .top{
+            display: none;
+        }
+        .main-nav{
+            margin-top: 0;
+            float: right;
+        }
+        
+        .main-nav li {
+            font-size: 1em;
+            color: darkblue;
+            text-transform: uppercase;
+            text-align: center; 
+            padding: 10px;
+            margin: 0 auto;
+            display: inline-block;
+            
+        }
+
+
+        nav{
+            display: inline-block;
+        }
+        .banner{
+            display: inline-block;
+            padding-bottom: 30px;
+        }
+    
+        .introduction{
+            max-width: 100%;
+            
+            
+        }
+    
+        .profile-photo{
+            max-width: 40%;
+            float: right;
+            margin: 20px 60px;
+           
+        }
+    
+        .main-nav a {
+            background-color: whitesmoke;
+            
+        }
+    
+        .container{
+            text-align: center;
+            max-width: 90%;
+        }
+        .project{
+            max-width: 30%;
+            display: inline-block;
+            margin: 30px auto;
+            
+        }
+        .project img{
+            margin: 0 auto;
+            max-width: 95%;
+        }
+    
+        .top{
+            display: none;
+        }
+    
+        
+        }
+        .footer-nav{
+            list-style: none;
+            padding-inline-start: 0px;
+            display: inline;
+            /* Had to overwrite User Agent Stylesheet to remove padding for deleted bullet points
+             However, Adding in normalize.css also seemed to correct the issue. Leaving property to keep style accurate*/ 
+        }
+    
+        .footer-nav a {
+            font-size: 1em;
+            font-weight: 800;
+            color: darkblue;
+            text-transform: uppercase;
+            text-align: center; 
+            padding: 20px;
+            float: right;
+            max-width: 50%;
+            
+        }
+        
+        .footer-nav a:hover {
+            color: #000000;
+        }
+        
+        .footer-nav  a:visited {
+            color: black
+        }
+        .footer-nav{
+            display: none;
+        }
+    
 }
