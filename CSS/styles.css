@@ -183,25 +183,34 @@ Intro Banner Styling
     margin: 0 auto;
 }
 
-.footer-nav{
-    display: none;
-}
-
-
 
 /*=======================================
     @media Queries for Responsive Design
 ========================================*/
 
-@media(max-width:768){
-    
-    
+@media(max-width: 768px){
+    .footer-nav{
+        visibility: hidden;
+    }
+    .top{
+        visibility: visible;
+    }
 }
+    
 
 @media(min-width:768px){
-   
+    .footer-nav{
+        visibility: visible;
+    }    
+    .wrapper{
+        display: inline;
+        margin: 0 auto;
+    }
     .top{
         display: none;
+    }
+    .name{
+        padding-left: 40px;
     }
     .main-nav{
         text-align: center;
@@ -224,9 +233,7 @@ Intro Banner Styling
     }
 
     .introduction{
-        max-width: 100%;
-        
-        
+        max-width: 100%;   
     }
 
     .profile-photo{
@@ -277,6 +284,7 @@ Intro Banner Styling
         padding: 20px;
         float: right;
         max-width: 50%;
+        margin-right: 30px;
         
     }
     
@@ -287,8 +295,8 @@ Intro Banner Styling
     .footer-nav  a:visited {
         color: black
     }
-    .footer-nav{
-        display: none;
+    .footer-name{
+        margin-top: 10px;
     }
 
 }
@@ -332,6 +340,7 @@ Intro Banner Styling
     
         .introduction{
             max-width: 100%;
+            padding-top: 100px;
             
             
         }
@@ -350,7 +359,7 @@ Intro Banner Styling
     
         .container{
             text-align: center;
-            max-width: 90%;
+            max-width: 95%;
         }
         .project{
             max-width: 30%;
@@ -396,8 +405,6 @@ Intro Banner Styling
         .footer-nav  a:visited {
             color: black
         }
-        .footer-nav{
-            display: none;
-        }
+        
     
 }
