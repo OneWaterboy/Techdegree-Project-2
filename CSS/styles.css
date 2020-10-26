@@ -233,6 +233,22 @@ footer {
         display: flex;
         margin-top: 15px;
     }
+
+    .banner{
+        display: inline-block;
+        align-content: center;
+        justify-content: center;
+        max-width: 95%;
+    }
+    .profile-photo{
+        float: right;
+        max-width: 50%;
+    }
+    .introduction {
+        float: left;
+        max-width: 50%;
+        
+    }
     .container{
         text-align: center;
     }
@@ -291,22 +307,6 @@ footer {
         margin-left: 15px;
         margin-right: 20px;
     }
-    .banner{
-        display: inline-block;
-        align-content: center;
-        justify-content: center;
-        max-width: 95%;
-    }
-    .profile-photo{
-        float: right;
-        max-width: 50%;
-    }
-    .introduction {
-        float: left;
-        max-width: 50%;
-        
-    }
-    
     .project{
         max-width: 30%;
     }
